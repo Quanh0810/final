@@ -357,5 +357,43 @@
     background-color: rgb(62, 107, 165);
     transform: scale(1.05);
 }
+/* Responsive */
+@media (max-width: 800px) {
+    /* .hide_on_mobile {
+        display: none;
+    } */
+
+    .grid__column--2 {
+        display: none;
+    }
+    .header__navbar {
+        display: none;
+    }
+    .header__logo {
+        display: none;
+    }
+    .header__cart {
+        display: none;
+    }
+
+    .grid__column--10 {
+        height: auto;
+        display: 100%;
+        flex-direction: column;
+
+    }
+
+    .grid__column--5 {
+        width: auto;
+    }
+
+    .product__item {
+        height: auto;
+    }
+    .product__item--price {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
 
 
