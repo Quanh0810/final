@@ -21028,7 +21028,7 @@ for (let item in data) {
             imageWidth: 400,
             imageHeight: 400,
             imageAlt: 'Custom image',
-            html: `<div>${sanPham.name}</div><div>${sanPham.special_price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</div>`,
+            html: `<div>${sanPham.name}</div><div>${sanPham.special_price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}đ</div>`,
           })
         })
       
@@ -21147,8 +21147,8 @@ dangNhap.addEventListener('click', () => {
         `
         listBrandAdmin.insertAdjacentHTML('beforeend', danhMuc);
       }
-    } else {
-      alert('User và Mật khẩu không đúng!')
+    // } else {
+    //   alert('User và Mật khẩu không đúng!')
     }
   }
 })
