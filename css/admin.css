@@ -3,7 +3,7 @@ body>table {
 }
 
 table {
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
 }
 
 table.list {
@@ -96,11 +96,11 @@ td{
     
 }
 tbody{
-    border-radius: 30px;
+    /* border-radius: 30px; */
     
 }
 tr{
-    bor
+    border-radius: 30px;
 }
 table{
     display: flex;
