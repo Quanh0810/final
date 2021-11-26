@@ -21369,3 +21369,9 @@ delProductbtn.addEventListener('click', () => {
   document.getElementById('images').value = '';
   alert('Đã xóa!')
 })
+
+// Giỏ hàng
+let gioHang = document.querySelector(".header__cart--icon")
+gioHang.addEventListener('click',() =>{
+  alert('Chức năng này sẽ được cập nhật sớm');
+})
